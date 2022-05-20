@@ -1,0 +1,74 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  font-weight: 400;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.btn-outline-info:hover {
+  color: white;
+}
+
+.btn-outline-light:hover {
+  color: #5bc0de;
+}
+
+#about {
+  color: white;
+  height: 100%;
+  border-top: 0px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.row.about-wrapper {
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.skill-item:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s ease-out;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.5s box-shadow,
+    0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.thumbnail {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.thumbnail:hover {
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#contact {
+  background-color: #5bc0de;
+  padding: 5rem 0 5rem 0;
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.back-to-top {
+  color: white;
+}
