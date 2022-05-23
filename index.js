@@ -3,7 +3,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 400) {
+    if (pos < topOfWindow + 800) {
       $(this).addClass('slideRight');
     }
   });
@@ -14,7 +14,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 600) {
+    if (pos < topOfWindow + 800) {
       $(this).addClass('fadeIn');
     }
   });
@@ -25,7 +25,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 600) {
+    if (pos < topOfWindow + 800) {
       $(this).addClass('fadeIn');
     }
   });
@@ -36,7 +36,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 600) {
+    if (pos < topOfWindow + 800) {
       $(this).addClass('slideRight');
     }
   });
@@ -47,19 +47,8 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 600) {
+    if (pos < topOfWindow + 800) {
       $(this).addClass('slideLeft');
-    }
-  });
-});
-
-$(window).scroll(function () {
-  $('.contact-wrapper').each(function () {
-    var pos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 600) {
-      $(this).addClass('fadeIn');
     }
   });
 });
