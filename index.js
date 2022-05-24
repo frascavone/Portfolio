@@ -3,7 +3,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 800) {
+    if (pos < topOfWindow + 600) {
       $(this).addClass('slideRight');
     }
   });
@@ -14,7 +14,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 800) {
+    if (pos < topOfWindow + 600) {
       $(this).addClass('fadeIn');
     }
   });
@@ -25,7 +25,7 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 800) {
+    if (pos < topOfWindow + 600) {
       $(this).addClass('fadeIn');
     }
   });
@@ -36,8 +36,8 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 800) {
-      $(this).addClass('slideRight');
+    if (pos < topOfWindow + 600) {
+      $(this).addClass('fadeIn');
     }
   });
 });
@@ -47,8 +47,8 @@ $(window).scroll(function () {
     var pos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (pos < topOfWindow + 800) {
-      $(this).addClass('slideLeft');
+    if (pos < topOfWindow + 600) {
+      $(this).addClass('fadeIn');
     }
   });
 });
